@@ -1,0 +1,298 @@
+.fontInter{
+    font-family: "Inter", sans-serif;
+}
+
+.blackBtn{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.blackBtn:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.whiteBtn{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.whiteBtn:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+
+.mainDiv{
+    min-height: 100vh;
+}
+
+.mainNav{
+    padding-top: 27px;
+    padding-left: 29px;
+    padding-right: 30px;
+}
+
+.companyName{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menuBar{
+    gap: 44px;
+}
+
+.menuBarLink{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.signUpBtnNav{
+    width: 132px;
+}
+
+.heroSection{
+    width: 100%;
+    height: 754px;
+    background-image: url('./heroImage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.searchFieldCont{
+    width: 825px;
+    height: 60px;
+    margin-top: 214px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.searchField{
+    border-radius: 30px;
+    height: 100%;
+    padding: 27px;
+    font-size: 18px;
+    padding-top: 23px;
+    border: none;
+}
+.searchIconCont{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 30px !important;
+    width: 93px;
+    height: 82%;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+.homePageIntro{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 796px;
+    text-align: center;
+    margin-top: 21px;
+    letter-spacing: -2px;
+    line-height: 1.2;
+
+}
+
+.homePageTagline{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 442px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.twoHelpBtn{
+    width: 344px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.helpBtn{
+    font-size: 16px;
+    font-weight: bold;
+    width: 154px;
+    height: 50px;
+}
+
+.aboutUs{
+    width: 100%;
+    height: 753px;
+    background-color: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutUsText{
+    width: 504px;
+    height: 100%;
+    padding-left: 43px;
+    margin-right: 39px;
+}
+
+.aboutUsHeadline{
+    color: #FFFFFF;
+    font-size: 45px;
+    padding-top: 223px;
+}
+
+.aboutUsDesc{
+    color: #FFFFFF;
+    padding-top: 19px;
+    font-size: 17px;
+}
+
+.aboutUsDetailsBtn{
+    font-size: 16px;
+    width: 153px;
+    height: 50px;
+    margin-top: 33px;
+}
+
+.aboutUsImgCont{
+    width: 891px;
+    height: 481px;
+    background-image: url('./aboutUsImage.png');
+    background-size: 100% 100%;
+}
+
+.aboutUsSampleIntroBox{
+    position: absolute;
+    width: 228px;
+    height: 136px;
+    padding-top: 18px;
+    padding-left: 16px;
+    background-color: #FFFFFF;
+    top: 68px;
+    left: 85px;
+    border-radius: 10px;
+}
+
+.homepageSampleIntroText{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.helpedOthers{
+    font-size: 10px;
+}
+
+.followerStats{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fStatsEach{
+    margin-right: 13px;
+}
+
+.fStatsProPicCont{
+    margin-right: 0px;
+    margin-left: 11px;
+    margin-top: -16px;
+}
+
+.fStatsSmall{
+    font-size: 7px;
+    text-align: center;
+}
+
+.aboutUsSampleFollowerBox{
+    position: absolute;
+    width: 155px;
+    height: 88px;
+    background-color: #FFFFFF;
+    top: 248px;
+    right: 98px;
+    border-radius: 10px;
+}
+
+
+.categories{
+    width: 100%;
+    height: 753px;
+    /* background-color: #D9D9D9; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community{
+    width: 100%;
+    height: 753px;
+    /* background-color: #D9D9D9; */
+    background-color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.communityTextCont{
+    width: 50%;
+    height: 100%;
+    padding-top: 108px;
+    padding-left: 40px;
+    padding-right: 130px;
+}
+
+.reviews{
+    width: 100%;
+    height: 596px;
+    /* background-color: #D9D9D9; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.commitment{
+    width: 100%;
+    height: 488px;
+    /* background-color: #D9D9D9; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commitmentImgCont{
+    width: 50%;
+    height: 100%;
+}
+
+.commitmentTextCont{
+    width: 50%;
+    height: 100%;
+    background-color: #3D3D3D;
+    padding-top: 108px;
+    padding-left: 40px;
+    padding-right: 130px;
+}
+
+.footer{
+    width: 100%;
+    height: 483px;
+    /* background-color: #D9D9D9; */
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

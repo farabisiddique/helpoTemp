@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HELPO</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+  
+  <!-- Optional Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="./all.css">
+</head>
+<body>
+    <div class="container-fluid p-0 mainDiv bg-success">
+        <!-- Sticky Transparent Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent mainNav">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand text-light companyName fontInter" href="./index.php">HELPO</a>
+
+                <!-- Toggler/collapsible Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                    <!-- Navbar links on the left (empty, if you don't need anything on the left) -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Left-aligned items -->
+                    </ul>
+
+                    <!-- Navbar links on the right -->
+                    <ul class="navbar-nav ml-auto d-flex menuBar">
+                        <li class="nav-item">
+                            <a class="nav-link menuBarLink fontInter" href="./index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menuBarLink fontInter" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menuBarLink fontInter" href="#contact">Contact</a>
+                        </li>
+                        <!-- Additional items and dropdowns can be added here -->
+                        <li class="nav-item">
+                            <a class="nav-link menuBarLink fontInter" href="#login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn menuBarLink fontInter signUpBtnNav blackBtn" href="#signup">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="heroSection p-0 m-0">
+            <form>
+                <div class="input-group mb-3 searchFieldCont">
+                    <input type="text" class="form-control searchField" placeholder="Ask for Help" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text searchIconCont" id="basic-addon2">
+                        <i class="bi bi-search mx-auto"></i>
+                    </span>
+                </div>
+            </form>
+            <div class="homePageIntro fontInter">
+                Connecting Seekers And Helpers Across The World
+            </div>
+            <div class="homePageTagline fontInter">
+                A better approach to assisting people, empowering individuals to find opportunities
+            </div>
+            <div class="twoHelpBtn">
+                <button class="btn helpBtn fontInter whiteBtn">I Want To Help</button>
+                <button class="btn helpBtn fontInter blackBtn">I Need Help</button>
+            </div>
+        </div>
+        <div class="aboutUs">
+            <div class="aboutUsText">
+                <h1 class="aboutUsHeadline fontInter">Get To Know Us</h1>
+                <p class="aboutUsDesc fontInter">HELPO was birthed from the vision of pioneering a better approach to assisting people, empowering individuals to find opportunities, and businesses to discover unparalleled flexibility.</p>
+                <button class="btn fontInter whiteBtn aboutUsDetailsBtn">About Us</button>
+            </div>
+            <div class="aboutUsImgCont position-relative">
+                <div class="aboutUsSampleIntroBox">
+                    <p class="fontInter homepageSampleIntroText">I am a Web Developer, helping others to meet their goals</p>
+                    <u class="fontInter helpedOthers">Helped Others</u>
+                    <div class="followerStats">
+                        <div class="fStatsEach">
+                            <h6 class="fontInter p-0 m-0">300</h6>
+                            <p class="fontInter p-0 m-0 fStatsSmall">People</p>
+                        </div>
+                        
+
+                        <div class="fStatsEach">
+                            <h6 class="fontInter p-0 m-0">250</h6>
+                            <p class="fontInter p-0 m-0 fStatsSmall">Reviews</p>
+                        </div>
+
+
+                        <div class="fStatsEach">
+                            <h6 class="fontInter p-0 m-0">86%</h6>
+                            <p class="fontInter p-0 m-0 fStatsSmall">Ratings</p>
+                        </div>
+                        <div class="fStatsEach fStatsProPicCont">
+                            <img src="helperProPic.png" alt="">
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="aboutUsSampleFollowerBox">
+
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+
+        </div>
+        <div class="community">
+            <div class="communityTextCont">
+                <h1 class="fontInter text-light">We Believe In Building</h1>
+                <h1 class="fontInter text-light">Stronger Community</h1>
+                <p class="fontInter text-light">To our esteemed clients: Leverage this vast network of independent talents to 
+                    innovate faster and revolutionize your business. To our cherished talents: 
+                    Recognize that you're an invaluable cog in someone's machinery, driving them 
+                    towards their dreams. At HELPO, we’re not just a platform, we’re a community.
+                </p>
+            </div>
+            <div class="commitmentImgCont">
+                <img src="./commitment-lady.png" class="w-100 h-100">
+            </div>
+        </div>
+        <div class="reviews">
+
+        </div>
+        <div class="commitment">
+            <div class="commitmentTextCont">
+                <h1 class="fontInter text-light">Our Commitment</h1>
+                <h1 class="fontInter text-light">To Clients</h1>
+                <p class="fontInter text-light">To our esteemed clients: Leverage this vast network of independent talents to 
+                    innovate faster and revolutionize your business. To our cherished talents: 
+                    Recognize that you're an invaluable cog in someone's machinery, driving them 
+                    towards their dreams. At HELPO, we’re not just a platform, we’re a community.
+                </p>
+            </div>
+            <div class="commitmentImgCont">
+                <img src="./commitment-lady.png" class="w-100 h-100">
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+
+    </div>
+
+
+  
+</body>
+</html>
