@@ -289,10 +289,48 @@
 .footer{
     width: 100%;
     height: 483px;
-    /* background-color: #D9D9D9; */
-    background-color: blue;
+    color: #FFFFFF;    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+}
+
+.logoPartFooter{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 41px;
+}
+
+.menuPartFooter{
+    width: 100%;
+    height: 65%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuPartFooter ul{
+    list-style-type: none;
+}
+
+.socialPartFooter{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialPartFooter ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
