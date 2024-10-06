@@ -1,230 +1,516 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HELPO</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  
-  
-  <!-- Optional Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
-  <link rel="stylesheet" href="./all.css">
-</head>
-<body>
-    <div class="container-fluid p-0 mainDiv bg-success">
-        <!-- Sticky Transparent Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent mainNav">
-            <div class="container-fluid">
-                <!-- Brand -->
-                <a class="navbar-brand text-light companyName fontInter" href="./index.php">HELPO</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>HELPO</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
 
-                <!-- Toggler/collapsible Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <!-- Optional Bootstrap JavaScript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
 
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo">
-                    <!-- Navbar links on the left (empty, if you don't need anything on the left) -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- Left-aligned items -->
-                    </ul>
+        <link rel="stylesheet" href="./all.css" />
+    </head>
+    <body>
+        <div class="container-fluid p-0 mainDiv">
+            <!-- Sticky Transparent Navbar -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent mainNav"
+            >
+                <div class="container-fluid">
+                    <!-- Brand -->
+                    <a
+                        class="navbar-brand text-light companyName fontInter"
+                        href="./index.php"
+                        >HELPO</a
+                    >
 
-                    <!-- Navbar links on the right -->
-                    <ul class="navbar-nav ml-auto d-flex menuBar">
-                        <li class="nav-item">
-                            <a class="nav-link menuBarLink fontInter" href="./index.php">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link menuBarLink fontInter" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link menuBarLink fontInter" href="#contact">Contact</a>
-                        </li>
-                        <!-- Additional items and dropdowns can be added here -->
-                        <li class="nav-item">
-                            <a class="nav-link menuBarLink fontInter" href="#login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn menuBarLink fontInter signUpBtnNav blackBtn" href="#signup">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="heroSection p-0 m-0">
-            <form>
-                <div class="input-group mb-3 searchFieldCont">
-                    <input type="text" class="form-control searchField" placeholder="Ask for Help" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text searchIconCont" id="basic-addon2">
-                        <i class="bi bi-search mx-auto"></i>
-                    </span>
-                </div>
-            </form>
-            <div class="homePageIntro fontInter">
-                Connecting Seekers And Helpers Across The World
-            </div>
-            <div class="homePageTagline fontInter">
-                A better approach to assisting people, empowering individuals to find opportunities
-            </div>
-            <div class="twoHelpBtn">
-                <button class="btn helpBtn fontInter whiteBtn">I Want To Help</button>
-                <button class="btn helpBtn fontInter blackBtn">I Need Help</button>
-            </div>
-        </div>
-        <div class="aboutUs">
-            <div class="aboutUsText">
-                <h1 class="aboutUsHeadline fontInter">Get To Know Us</h1>
-                <p class="aboutUsDesc fontInter">HELPO was birthed from the vision of pioneering a better approach to assisting people, empowering individuals to find opportunities, and businesses to discover unparalleled flexibility.</p>
-                <button class="btn fontInter whiteBtn aboutUsDetailsBtn">About Us</button>
-            </div>
-            <div class="aboutUsImgCont position-relative">
-                <div class="aboutUsSampleIntroBox">
-                    <p class="fontInter homepageSampleIntroText">I am a Web Developer, helping others to meet their goals</p>
-                    <u class="fontInter helpedOthers">Helped Others</u>
-                    <div class="followerStats">
-                        <div class="fStatsEach">
-                            <h6 class="fontInter p-0 m-0">300</h6>
-                            <p class="fontInter p-0 m-0 fStatsSmall">People</p>
-                        </div>
-                        
+                    <!-- Toggler/collapsible Button -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo"
+                        aria-controls="navbarTogglerDemo"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div class="fStatsEach">
-                            <h6 class="fontInter p-0 m-0">250</h6>
-                            <p class="fontInter p-0 m-0 fStatsSmall">Reviews</p>
-                        </div>
+                    <!-- Navbar links -->
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarTogglerDemo"
+                    >
+                        <!-- Navbar links on the left (empty, if you don't need anything on the left) -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- Left-aligned items -->
+                        </ul>
 
-
-                        <div class="fStatsEach">
-                            <h6 class="fontInter p-0 m-0">86%</h6>
-                            <p class="fontInter p-0 m-0 fStatsSmall">Ratings</p>
-                        </div>
-                        <div class="fStatsEach fStatsProPicCont">
-                            <img src="helperProPic.png" alt="">
-                        </div>
-
-
-
+                        <!-- Navbar links on the right -->
+                        <ul class="navbar-nav ml-auto d-flex menuBar">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link menuBarLink fontInter"
+                                    href="./index.php"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link menuBarLink fontInter"
+                                    href="#about"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link menuBarLink fontInter"
+                                    href="#contact"
+                                    >Contact</a
+                                >
+                            </li>
+                            <!-- Additional items and dropdowns can be added here -->
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link menuBarLink fontInter"
+                                    href="#login"
+                                    >Login</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="btn menuBarLink fontInter signUpBtnNav blackBtn"
+                                    href="#signup"
+                                    >Sign Up</a
+                                >
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="aboutUsSampleFollowerBox">
+            </nav>
+            <div class="heroSection p-0 m-0">
+                <form>
+                    <div class="input-group mb-3 searchFieldCont">
+                        <input
+                            type="text"
+                            class="form-control searchField"
+                            placeholder="Ask for Help"
+                            aria-label="Recipient's username"
+                            aria-describedby="basic-addon2"
+                        />
+                        <span
+                            class="input-group-text searchIconCont"
+                            id="basic-addon2"
+                        >
+                            <i class="bi bi-search mx-auto"></i>
+                        </span>
+                    </div>
+                </form>
+                <div class="homePageIntro fontInter">
+                    Connecting Seekers And Helpers Across The World
+                </div>
+                <div class="homePageTagline fontInter">
+                    A better approach to assisting people, empowering
+                    individuals to find opportunities
+                </div>
+                <div class="twoHelpBtn">
+                    <button class="btn helpBtn fontInter whiteBtn">
+                        I Want To Help
+                    </button>
+                    <button class="btn helpBtn fontInter blackBtn">
+                        I Need Help
+                    </button>
+                </div>
+            </div>
+            <div class="aboutUs">
+                <div class="aboutUsText">
+                    <h1 class="aboutUsHeadline fontInter">Get To Know Us</h1>
+                    <p class="aboutUsDesc fontInter">
+                        HELPO was birthed from the vision of pioneering a better
+                        approach to assisting people, empowering individuals to
+                        find opportunities, and businesses to discover
+                        unparalleled flexibility.
+                    </p>
+                    <button class="btn fontInter whiteBtn aboutUsDetailsBtn">
+                        About Us
+                    </button>
+                </div>
+                <div class="aboutUsImgCont position-relative">
+                    <div class="aboutUsSampleIntroBox">
+                        <p class="fontInter homepageSampleIntroText">
+                            I am a Web Developer, helping others to meet their
+                            goals
+                        </p>
+                        <u class="fontInter helpedOthers">Helped Others</u>
+                        <div class="followerStats">
+                            <div class="fStatsEach">
+                                <h6 class="fontInter p-0 m-0">300</h6>
+                                <p class="fontInter p-0 m-0 fStatsSmall">
+                                    People
+                                </p>
+                            </div>
 
+                            <div class="fStatsEach">
+                                <h6 class="fontInter p-0 m-0">250</h6>
+                                <p class="fontInter p-0 m-0 fStatsSmall">
+                                    Reviews
+                                </p>
+                            </div>
+
+                            <div class="fStatsEach">
+                                <h6 class="fontInter p-0 m-0">86%</h6>
+                                <p class="fontInter p-0 m-0 fStatsSmall">
+                                    Ratings
+                                </p>
+                            </div>
+                            <div class="fStatsEach fStatsProPicCont">
+                                <img src="helperProPic.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aboutUsSampleFollowerBox"></div>
+                </div>
+            </div>
+            <div class="categories">
+                <div class="categoryHeadlineCont">
+                    <h3>We Elevate Work to New Heights</h3>
+                    <p>We are privy to your vision, and every action of ours is directed towards 
+                        helping you forge connections that metamorphose these visions into reality. 
+                        Here, you build a reservoir of trustworthy collaborators.</p>
+                </div>
+                <div class="categorySliderCont">
+                    <div class="container my-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="./sliderimg1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="./sliderimg2.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="./sliderimg3.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="./sliderimg4.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card catSlideCard">
+                                                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Lorem Ipsum</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev catSlidePrev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon catSlidePrevIcon" aria-hidden="true">
+                                    <i class="bi bi-arrow-left-circle"></i>
+                                </span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next catSlideNext" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon catSlideNextIcon" aria-hidden="true">
+                                    <i class="bi bi-arrow-right-circle"></i>
+                                </span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="community">
+                <div class="communityTextCont">
+                    <h1 class="fontInter">We Believe In Building</h1>
+                    <h1 class="fontInter">Stronger Community</h1>
+                    <p class="fontInter">
+                        To our esteemed clients: Leverage this vast network of
+                        independent talents to innovate faster and revolutionize
+                        your business. To our cherished talents: Recognize that
+                        you're an invaluable cog in someone's machinery, driving
+                        them towards their dreams. At HELPO, we’re not just a
+                        platform, we’re a community.
+                    </p>
+                    <button class="btn mt-4 fontInter blackBtn joinCommunityBtn">
+                        Join Our Community
+                    </button>
+                </div>
+                <div class="commitmentImgCont">
+                    <img src="./community-image.png" />
+                </div>
+            </div>
+            <div class="reviews">
+                <div class="reviewHeadlineCont">
+                    <p class="mb-0 pb-0">Customer Testimonials</p>
+                    <h1>What They Has To Say</h1>
+                </div>
+                <div class="reviewCont">
+                     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item reviewItem active">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <!-- First Testimonial -->
+                                <div class="col-md-4">
+                                  <div class="testimonial-item">
+                                    <div class="profile-info d-flex">
+                                      <!-- Profile Image on the left -->
+                                      <img src="./reviewer1.jpg" alt="Profile Image">
+                                      <!-- Name, Designation, and Star Rating on the right -->
+                                      <div>
+                                        <h5>Matt Johnson</h5>
+                                        <p>Director</p>
+                                        <div class="rating">
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- Testimonial text at the bottom -->
+                                    <p class="testimonial-text">"Exceptional craftsmanship, top-notch professionalism, and seamless project management. HELPO exceeded all our expectations."</p>
+                                  </div>
+                                </div>
+                                <!-- Second Testimonial -->
+                                <div class="col-md-4">
+                                <div class="testimonial-item">
+                                  <div class="profile-info d-flex">
+                                    <!-- Profile Image on the left -->
+                                    <img src="./reviewer2.jpg" alt="Profile Image">
+                                    <!-- Name, Designation, and Star Rating on the right -->
+                                    <div>
+                                      <h5>Sarah West</h5>
+                                      <p>Project Manager</p>
+                                      <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- Testimonial text at the bottom -->
+                                  <p class="testimonial-text">"Exceptional craftsmanship, top-notch professionalism, and seamless project management. HELPO exceeded all our expectations."</p>
+                                </div>
+                              </div>
+                                <!-- Third Testimonial -->
+                                <div class="col-md-4">
+                                  <div class="testimonial-item">
+                                    <div class="profile-info d-flex">
+                                      <!-- Profile Image on the left -->
+                                      <img src="./reviewer3.jpg" alt="Profile Image">
+                                      <!-- Name, Designation, and Star Rating on the right -->
+                                      <div>
+                                        <h5>Joe Wallace</h5>
+                                        <p>Senior Manager</p>
+                                        <div class="rating">
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star-fill"></i>
+                                          <i class="bi bi-star"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- Testimonial text at the bottom -->
+                                    <p class="testimonial-text">"Exceptional craftsmanship, top-notch professionalism, and seamless project management. HELPO exceeded all our expectations."</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Add more carousel-item blocks as needed -->
+                        </div>
+
+                         <button class="carousel-control-prev revSlidePrev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                             <span class="carousel-control-prev-icon revSlidePrevIcon" aria-hidden="true">
+                                 <i class="bi bi-chevron-left"></i>
+                             </span>
+                             <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next revSlideNext" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                             <span class="carousel-control-next-icon revSlideNextIcon" aria-hidden="true">
+                                 <i class="bi bi-chevron-right"></i>
+                             </span>
+                             <span class="visually-hidden">Next</span>
+                         </button>
+                </div>
+            </div>
+            </div>
+            <div class="commitment">
+                <div class="commitmentTextCont">
+                    <h1 class="fontInter text-light">Our Commitment</h1>
+                    <h1 class="fontInter text-light">To Clients</h1>
+                    <p class="fontInter text-light commitmentText">
+                        To our esteemed clients: Leverage this vast network of
+                        independent talents to innovate faster and revolutionize
+                        your business. To our cherished talents: Recognize that
+                        you're an invaluable cog in someone's machinery, driving
+                        them towards their dreams. At HELPO, we’re not just a
+                        platform, we’re a community.
+                    </p>
+                </div>
+                <div class="commitmentImgCont">
+                    <img src="./commitment-lady.png" class="w-100 h-100" />
+                </div>
+            </div>
+            <div class="footer">
+                <div class="logoPartFooter">
+                    <a
+                        class="navbar-brand text-light companyName fontInter"
+                        href="./index.php"
+                        >HELPO</a
+                    >
+                </div>
+                <div class="menuPartFooter">
+                    <div class="container d-flex justify-content-evenly">
+                        <div class="footerMenu">
+                            <p><h5>For Clients</h5></p>
+                            <p><a href="#">How to Hire</a></p>
+                            <p><a href="#">Talent Marketplace</a></p>
+                            <p><a href="#">Project Catalog</a></p>
+                            <p><a href="#">Hire an Agency</a></p>
+                            <p><a href="#">Enterprise</a></p>
+                            <p><a href="#">Any Hire</a></p>
+                            <p><a href="#">Contract-to-Hire</a></p>
+                            <p><a href="#">Direct Contracts</a></p>
+                            <p><a href="#">Hire Worldwide</a></p>
+                            <p><a href="#">Hire in the USA</a></p>
+                        </div>
+
+                        <div class="footerMenu">
+                            <p><h5>For Talent</h5></p>
+                            <p><a href="#">How to Find Work</a></p>
+                            <p><a href="#">Direct Contracts</a></p>
+                            <p><a href="#">Find Freelance Jobs Worldwide</a></p>
+                            <p><a href="#">Find Freelance Jobs in the USA</a></p>
+                            <p><a href="#">Win work with ads</a></p>
+                            <p><a href="#">
+                                Exclusive resources with<br />Freelancer Plus
+                            </a></p>
+                        </div>
+
+                        <div class="footerMenu">
+                            <p><h5>Resources</h5></p>
+                            <p><a href="#">Help & Support</a></p>
+                            <p><a href="#">Success Stories</a></p>
+                            <p><a href="#">Upwork Reviews</a></p>
+                            <p><a href="#">Resources</a></p>
+                            <p><a href="#">Blog</a></p>
+                            <p><a href="#">Community</a></p>
+                            <p><a href="#">Affiliate Program</a></p>
+                            <p><a href="#">Free Business tools</a></p>
+                        </div>
+
+                        <div class="footerMenu">
+                            <p><h5>Company</h5></p>
+                            <p><a href="#">About Us</a></p>
+                            <p><a href="#">Leadership</a></p>
+                            <p><a href="#">Investor Relations</a></p>
+                            <p><a href="#">Careers</a></p>
+                            <p><a href="#">Our Impact</a></p>
+                            <p><a href="#">Press</a></p>
+                            <p><a href="#">Contact Us</a></p>
+                            <p><a href="#">Trust, Safety & Security</a></p>
+                            <p><a href="#">Modern Slavery Statement</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialPartFooter">
+                    <div class="p-0 m-0 socialBoxCont">
+                        <div><h3>Follow Us</h3></div>
+                        <div class="socialBox">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <div class="socialBox">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="socialBox">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="categories">
-
-        </div>
-        <div class="community">
-            <div class="communityTextCont">
-                <h1 class="fontInter text-light">We Believe In Building</h1>
-                <h1 class="fontInter text-light">Stronger Community</h1>
-                <p class="fontInter text-light">To our esteemed clients: Leverage this vast network of independent talents to 
-                    innovate faster and revolutionize your business. To our cherished talents: 
-                    Recognize that you're an invaluable cog in someone's machinery, driving them 
-                    towards their dreams. At HELPO, we’re not just a platform, we’re a community.
-                </p>
-            </div>
-            <div class="commitmentImgCont">
-                <img src="./commitment-lady.png" class="w-100 h-100">
-            </div>
-        </div>
-        <div class="reviews">
-
-        </div>
-        <div class="commitment">
-            <div class="commitmentTextCont">
-                <h1 class="fontInter text-light">Our Commitment</h1>
-                <h1 class="fontInter text-light">To Clients</h1>
-                <p class="fontInter text-light">To our esteemed clients: Leverage this vast network of independent talents to 
-                    innovate faster and revolutionize your business. To our cherished talents: 
-                    Recognize that you're an invaluable cog in someone's machinery, driving them 
-                    towards their dreams. At HELPO, we’re not just a platform, we’re a community.
-                </p>
-            </div>
-            <div class="commitmentImgCont">
-                <img src="./commitment-lady.png" class="w-100 h-100">
-            </div>
-        </div>
-        <div class="footer">
-            <div class="logoPartFooter">
-                <a class="navbar-brand text-light companyName fontInter" href="./index.php">HELPO</a>
-            </div>
-            <div class="menuPartFooter">
-                <div class="container d-flex justify-content-evenly">
-                    <ul>
-                        <li><h5>For Clients</h5></li>
-                        <li>How to Hire</li>
-                        <li>Talent Marketplace</li>
-                        <li>Project Catalog</li>
-                        <li>Hire an Agency</li>
-                        <li>Enterprise</li>
-                        <li>Any Hire</li>
-                        <li>Contract-to-Hire</li>
-                        <li>Direct Contracts</li>
-                        <li>Hire Worldwide</li>
-                        <li>Hire in the USA</li>
-                    </ul>
-                    
-                    <ul>
-                        <li><h5>For Talent</h5></li>
-                        <li>How to Find Work</li>
-                        <li>Direct Contracts</li>
-                        <li>Find Freelance Jobs Worldwide</li>
-                        <li>Find Freelance Jobs in the USA</li>
-                        <li>Win work with ads</li>
-                        <li>Exclusive resources with<br>Freelancer Plus</li>
-                    </ul>
-                    
-                    <ul>
-                        <li><h5>Resources</h5></li>
-                        <li>Help & Support</li>
-                        <li>Success Stories</li>
-                        <li>Upwork Reviews</li>
-                        <li>Resources</li>
-                        <li>Blog</li>
-                        <li>Community</li>
-                        <li>Affiliate Program</li>
-                        <li>Free Business tools</li>
-                    </ul>
-                    
-                    <ul>
-                    <li><h5>Company</h5></li>
-                    <li>About Us</li>
-                    <li>Leadership</li>
-                    <li>Investor Relations</li>
-                    <li>Careers</li>
-                    <li>Our Impact</li>
-                    <li>Press</li>
-                    <li>Contact Us</li>
-                    <li>Trust, Safety & Security</li>
-                    <li>Modern Slavery Statement</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="socialPartFooter">
-                <ul class="p-0 m-0">
-                    <li><h3>Follow Us</h3></li>
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
-                    <li><i class="bi bi-linkedin"></i></li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-
-
-  
-</body>
+    </body>
 </html>
 
 <!-- figma link 
