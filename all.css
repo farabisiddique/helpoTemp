@@ -241,11 +241,11 @@
 }
 
 .categoryHeadlineCont {
-    width: 28%;
-    height: 22%;
+    width: 62%;
+    height: 30%;
     /* background-color: red; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -253,8 +253,8 @@
 
 .categorySliderCont {
     width: 100%;
-    height: 78%;
-    /* background-color: green; */
+    height: 70%;
+    position: relative;
 }
 
 .catSlideCard {
@@ -270,17 +270,15 @@
 }
 
 .catSlidePrev {
-    top: 121%;
-    left: 110%;
-    width: 10%;
-    transform: translateY(-50%);
+    bottom: 0%;
+    right: 5%;
+    position: absolute;
 }
 
 .catSlideNext {
-    top: 121%;
-    right: -24%;
-    width: 10%;
-    transform: translateY(-50%);
+    bottom: 0%;
+    right: 2%;
+    position: absolute;
 }
 
 .catSlidePrevIcon,
@@ -299,18 +297,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3em;
 }
 
 .communityTextCont {
-    width: 27%;
+    width: 45%;
     height: 100%;
     padding-top: 1em;
-    padding-left: 3em;
     padding-right: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: green; */
 
+}
+
+.communityImgCont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityImgCont img{
+    height: 90%;
 }
 
 .joinCommunityBtn {
@@ -329,11 +340,11 @@
 }
 
 .reviewHeadlineCont {
-    width: 28%;
-    height: 22%;
-    background-color: green;
+    width: 41%;
+    height: 34%;
+    /* background-color: green; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -341,7 +352,7 @@
 
 .reviewCont {
     width: 100%;
-    height: 78%;
+    height: 66%;
     /* background-color: gray; */
 }
 
@@ -364,28 +375,34 @@
 
 .profile-info img {
     border-radius: 50%;
-    width: 146px;
-    height: 146px;
+    width: 30%;
+    /* height: 146px; */
     margin-right: 18px;
+    aspect-ratio: 1/1;
 }
 
-.profile-info h5 {
+.profile-info-text{
+    width: 70%;
+}
+
+.profile-info-text h5 {
     margin: 0;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-.profile-info p {
+.profile-info-text p {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1em;
     color: gray;
 }
 
 .rating {
-    margin-top: 5px;
-    font-size: 1.9em;
+    margin-top: 0.1em;
+    font-size: 1em;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 0.6em;
 }
 
 .rating i {
@@ -394,7 +411,7 @@
 
 .testimonial-text {
     margin-top: 15px;
-    font-size: 1.35em;
+    font-size: 1.0em;
     color: #333;
 }
 
@@ -408,7 +425,7 @@
 
 .revSlideNext {
     width: 10%;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-left: 0.6em;
     align-items: flex-start;
     margin-top: 7.6em;
@@ -416,7 +433,7 @@
 
 .revSlidePrevIcon,
 .revSlideNextIcon {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #000;
     background-image: unset;
     border-radius: 50%;
@@ -424,8 +441,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2em;
-    height: 2em;
+    width: 1.8em;
+    height: 1.8em;
 }
 
 
@@ -439,11 +456,15 @@
 }
 
 .commitmentImgCont {
-    width: 40%;
+    width: 55%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+.commitmentImgCont img{
+    object-fit: cover;
 }
 
 .commitmentTextCont {
@@ -513,7 +534,7 @@
 }
 
 .socialBoxCont {
-    width: 23%;
+    width: 32%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -522,8 +543,8 @@
 .socialBox {
     border: 1px solid white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 2.2em;
+    height: 2.2em;
     display: flex;
     justify-content: center;
     align-items: center;
