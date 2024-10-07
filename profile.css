@@ -1,0 +1,76 @@
+.profilePageMainDiv{
+   background: #B5B5B5;
+    
+}
+
+.profileDiv{
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+    padding-bottom: 2.6em;
+    padding-top: 5em;
+}
+
+.profileTop{
+    height: 332px;
+}
+
+.profileTop img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileBottom{
+    height: 1211px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profilePane{
+    width: 33%;
+    height: 104%;
+    background-color: #fff;
+    margin-top: -4%;
+    border-radius: 10px;
+}
+
+.profileGallery{
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.profileTabBtnCont{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.profileTabBtn{
+    background-color: #fff !important;
+    color: #000 !important;
+    border-top-left-radius: 64px !important;
+    border-top-right-radius: 64px !important;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+    padding: 10px 22px;
+    border: 0px !important;
+}
+
+.profileTabBtn.active{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.profileTabBtn:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.portfolioFrame{
+    background-color: #fff;
+    height: 213px;
+    width: 258px;
+    border-radius: 8px;
+}

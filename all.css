@@ -56,6 +56,25 @@
     width: 132px;
 }
 
+.afterLoginItemCont{
+    list-style: none;
+    display: flex;
+    gap: 0.4em;
+    font-size: 1.3em;
+    
+}
+
+.afterLoginItemCont i{
+    color: #fff;
+}
+
+.userProfileIcon{
+    font-size: 1.8em;
+}
+
+.userProfileIcon i{
+    display: flex;
+}
 .heroSection {
     width: 100%;
     height: 754px;
