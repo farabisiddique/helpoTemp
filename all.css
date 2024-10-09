@@ -56,25 +56,26 @@
     width: 132px;
 }
 
-.afterLoginItemCont{
+.afterLoginItemCont {
     list-style: none;
     display: flex;
     gap: 0.4em;
     font-size: 1.3em;
-    
+
 }
 
-.afterLoginItemCont i{
+.afterLoginItemCont i {
     color: #fff;
 }
 
-.userProfileIcon{
+.userProfileIcon {
     font-size: 1.8em;
 }
 
-.userProfileIcon i{
+.userProfileIcon i {
     display: flex;
 }
+
 .heroSection {
     width: 100%;
     height: 754px;
@@ -331,7 +332,7 @@
 
 }
 
-.communityImgCont{
+.communityImgCont {
     width: 50%;
     height: 100%;
     display: flex;
@@ -339,7 +340,7 @@
     align-items: center;
 }
 
-.communityImgCont img{
+.communityImgCont img {
     height: 90%;
 }
 
@@ -400,7 +401,7 @@
     aspect-ratio: 1/1;
 }
 
-.profile-info-text{
+.profile-info-text {
     width: 70%;
 }
 
@@ -482,7 +483,7 @@
     justify-content: flex-end;
 }
 
-.commitmentImgCont img{
+.commitmentImgCont img {
     object-fit: cover;
 }
 
@@ -568,4 +569,10 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
+    color: white;
+}
+
+.socialBox:hover {
+    background-color: white;
+    color: black;
 }

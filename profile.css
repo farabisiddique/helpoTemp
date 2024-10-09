@@ -1,33 +1,33 @@
-.profilePageMainDiv{
-   background: #B5B5B5;
-    
+.profilePageMainDiv {
+    background: #B5B5B5;
+
 }
 
-.profileDiv{
+.profileDiv {
     padding-left: 2.6em;
     padding-right: 2.6em;
     padding-bottom: 2.6em;
     padding-top: 5em;
 }
 
-.profileTop{
+.profileTop {
     height: 332px;
 }
 
-.profileTop img{
+.profileTop img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.profileBottom{
+.profileBottom {
     height: 1211px;
     /* background-color: red; */
     display: flex;
     justify-content: flex-end;
 }
 
-.profilePane{
+.profilePane {
     width: 33%;
     height: 104%;
     background-color: #fff;
@@ -35,19 +35,53 @@
     border-radius: 10px;
 }
 
-.profileGallery{
+.proPicInfoCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proPic {
+    width: 310px;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+.proPic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profType {
+    position: absolute;
+    bottom: 1.5em;
+    right: 1em;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.profSkills{
+    
+}
+
+.profileGallery {
     width: 65%;
     height: 100%;
     /* background-color: blue; */
 }
 
-.profileTabBtnCont{
+.profileTabBtnCont {
     display: flex;
     justify-content: flex-start;
     gap: 12px;
 }
 
-.profileTabBtn{
+.profileTabBtn {
     background-color: #fff !important;
     color: #000 !important;
     border-top-left-radius: 64px !important;
@@ -58,19 +92,20 @@
     border: 0px !important;
 }
 
-.profileTabBtn.active{
+.profileTabBtn.active {
     background-color: #000 !important;
     color: #fff !important;
 }
 
-.profileTabBtn:hover{
+.profileTabBtn:hover {
     background-color: #000 !important;
     color: #fff !important;
 }
 
-.portfolioFrame{
+.portfolioFrame {
     background-color: #fff;
-    height: 213px;
-    width: 258px;
+    height: 245px;
+    /* width: 258px; */
+    width: 32%;
     border-radius: 8px;
 }
