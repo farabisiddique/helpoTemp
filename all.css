@@ -396,9 +396,9 @@
 .profile-info img {
     border-radius: 50%;
     width: 30%;
-    /* height: 146px; */
     margin-right: 18px;
     aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .profile-info-text {
@@ -578,7 +578,81 @@
     color: black;
 }
 
-.loginModalRow{
+.loginModalRow {
     display: flex;
     justify-content: space-around;
+}
+
+.loginModalCloseBtn {
+    position: absolute;
+    top: -0.6em;
+    right: -0.6em;
+    background-color: #000;
+    color: #fff;
+    background-image: unset;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.loginModalCloseBtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.loginModalInput {
+    width: 100%;
+    background-color: #e3dfdf;
+    height: 4.5em;
+    border: none;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.loginSubmtBtn {
+    font-size: 2em;
+    border-radius: 0.1em;
+}
+
+.login-options {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login-options::before,
+.login-options::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-options::before {
+    margin-right: 10px;
+}
+
+.login-options::after {
+
+    margin-left: 10px;
+}
+
+.login-options span {
+    white-space: nowrap;
+}
+
+
+.loginModalImage {
+    border-radius: 7px;
+}
+
+.loginModalEngTxt {
+    position: absolute;
+    top: 85px;
+    left: 60px;
+    color: #fff;
 }
